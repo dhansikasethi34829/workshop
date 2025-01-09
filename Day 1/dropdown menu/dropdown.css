@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:  #881111;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 60px;
+    padding:0 48px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+    padding: 22px 10px;
+    margin: 5px 10px;
+    color:#ffffff;
+}
+nav h1{
+    font-size: 36px;
+    color: white;
+}
+nav li{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    background-color: #881111;
+    left:0;
+    top:39px;
+    flex-direction: column;
+    display: none;
+    box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.452);
+    border-radius: 4px;
+}
+nav ul li:hover .submenu{
+    display:flex;
+}
+.submenu li{
+    border-bottom: 1px solid black;
+    width:180px;
+    padding: 9px 5px;
+}

@@ -1,0 +1,21 @@
+Workshop key points
+
+1.Flexbox
+
+Justify-content
+-flex-start
+-flex-end
+-center
+-space-between
+-space-around
+-space-evenly
+
+align-items
+-flex-start
+-flex-end
+-center
+-stretch
+-baseline(not much required)
+
+2.Position
+

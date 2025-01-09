@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="bg-red-950 flex justify-between items-center px-8 py-6">
+            <h1 class="font-bold text-5xl text-white">Logo</h1>
+            <ul class="flex">
+                <li class="text-white px-4 py-2"><a href="">Home</a></li>
+                <li class="text-white px-4 py-2"><a href="">About</a></li>
+                <li class="text-white px-4 py-2"><a href="">Gallery</a></li>
+                <li class="text-white px-4 py-2"><a href="">Blog</a></li>
+                <li class="text-white px-4 py-2"><a href="">Contact Us</a></li>
+                <li class="px-4 py-2 mx-2 bg-white text-black hover:text-white hover:bg-black rounded-md"><a
+                        href="">Login</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="hero flex flex-row items-center px-8 py-8 bg-gray-500">
+        <div class="w-2/4  text-left">
+            <h2 class="font-bold text-6xl text-white py-4">Chotu Chai Wala</h2>
+            <p class="text-white py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias rerum
+                omnis hic cupiditate enim.</p>
+            <button class="bg-white text-black rounded-md px-6 py-2 hover:text-white hover:bg-black font-bold">
+                Contact Us
+            </button>
+        </div>
+        <div class="w-2/4">
+            <img class="w-full rounded-md object-cover" src="images/resturent.jpeg" alt="Restaurant">
+        </div>
+    </div>
+
+    <div class="menu px-12 py-8 gap-2 w-full">
+        <h1 class="text-4xl text-center font-bold mb-8">Our Menu</h1>
+        <div class="flex flex-wrap justify-between">
+            <div class="max-[500px]:w-full  w-[48%] min-[900px]:w-[30%]  text-center mb-6">
+                <img class="rounded-lg h-60 w-full " src="images/pizza.jpg" alt="">
+                <h3 class="text-lg font-semibold">Pizza - $3</h3>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-2">Add to Cart</button>
+            </div>
+            <div class="max-[500px]:w-full w-[48%] min-[900px]:w-[30%]   text-center mb-6">
+                <img class="rounded-lg h-60 w-full " src="images/sandwich.jpg" alt="">
+                <h3 class="text-lg font-semibold">Sandwich - $3</h3>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-2">Add to Cart</button>
+            </div>
+            <div class="max-[500px]:w-full w-[48%] min-[900px]:w-[30%]   text-center mb-6">
+                <img class="rounded-lg h-60 w-full " src="images/patties.jpg" alt="">
+                <h3 class="text-lg font-semibold">Patties - $2</h3>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-2">Add to Cart</button>
+            </div>
+
+            <div class="max-[500px]:w-full w-[48%] min-[900px]:w-[30%]  text-center mb-6">
+                <img class="rounded-lg h-60 w-full " src="images/samosa.jpg" alt="">
+                <h3 class="text-lg font-semibold">Samosa- $3</h3>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-2">Add to Cart</button>
+            </div>
+            <div class="max-[500px]:w-full w-[48%] min-[900px]:w-[30%]  text-center mb-6">
+                <img class="rounded-lg h-60 w-full" src="images/burger.webp" alt="">
+                <h3 class="text-lg font-semibold">Burger - $3</h3>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-2">Add to Cart</button>
+            </div>
+            <div class="max-[500px]:w-full w-[48%] min-[900px]:w-[30%]  text-center mb-6">
+                <img class="rounded-lg h-60 w-full " src="images/chaumin.webp" alt="">
+                <h3 class="text-lg font-semibold">Chowmein - $2</h3>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700">Add to Cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div id="chef" class="bg-gray-500 px-12 py-8 ">
+            <h2 class="font-bold text-3xl py-8 px-6 text-center">Our Chefs</h2>
+            <div class="flex flex-wrap justify-center gap-5">
+                <div class="lg:w-[30%] w-[48%] text-center ">
+                    <img class="h-56 rounded-lg w-full " src="images/sanjeev.jpg" alt="">
+                    <h3 class="text-white text-xl font-semibold">Sanjeev Kapoor</h3>
+                </div>
+                <div class="lg:w-[30%] w-[48%] text-center">
+                    <img class="h-56 rounded-lg w-full " src="images/ranvir_brar.webp" alt="">
+                    <h3 class="text-white text-xl font-semibold">Ranvir Brar</h3>
+                </div>
+                <div class="lg:w-[30%] w-[48%] text-center">
+                    <img class="h-56 rounded-lg w-full " src="images/Vikas-Khanna.webp" alt="">
+                    <h3 class="text-white text-xl font-semibold">Vikas Khanna</h3>
+
+                </div>
+            </div>
+</body>
+
+</html>
